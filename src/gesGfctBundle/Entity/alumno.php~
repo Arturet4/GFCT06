@@ -170,4 +170,52 @@ class alumno
     {
         return $this->ciclo;
     }
+
+    /**
+     * Set empresaAlumnos
+     *
+     * @param \gesGfctBundle\Entity\empresa $empresaAlumnos
+     *
+     * @return alumno
+     */
+    public function setEmpresaAlumnos(\gesGfctBundle\Entity\empresa $empresaAlumnos = null)
+    {
+        $this->empresaAlumnos = $empresaAlumnos;
+
+        return $this;
+    }
+
+    /**
+     * Get empresaAlumnos
+     *
+     * @return \gesGfctBundle\Entity\empresa
+     */
+    public function getEmpresaAlumnos()
+    {
+        return $this->empresaAlumnos;
+    }
+
+    /**
+     * Set empresa
+     *
+     * @param \gesGfctBundle\Entity\Empresa $empresa
+     *
+     * @return alumno
+     */
+    public function setEmpresa(\gesGfctBundle\Entity\Empresa $empresa = null)
+    {
+        $this->empresa = $empresa;
+
+        return $this;
+    }
+
+    /**
+     * Get empresa
+     *
+     * @return \gesGfctBundle\Entity\Empresa
+     */
+    public function getEmpresa()
+    {
+        return $this->empresa;
+    }
 }

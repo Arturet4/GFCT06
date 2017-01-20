@@ -8,6 +8,7 @@ use gesGfctBundle\Entity\User;
 use Symfony\Component\HttpFoundation\Request;
 use gesGfctBundle\Form\UserType;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 
 class DefaultController extends Controller
 {
